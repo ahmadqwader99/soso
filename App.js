@@ -20,7 +20,7 @@ import {
   View,
   enteredText,
   Switch,
-  
+
 } from 'react-native';
 
 import {
@@ -29,7 +29,7 @@ import {
   Header,
   LearnMoreLinks,
   ReloadInstructions,
-  
+
 
 } from 'react-native/Libraries/NewAppScreen';
 import Home from './src/screens/Home';
@@ -42,14 +42,14 @@ import Missions3 from './src3/components3/Missions3';
  * LTI update could not be added via codemod */
 
 
-export default function App(){
+export default function App() {
 
 
-  return(
+  return (
 
-<View style={styles.container}>
-<Home/>
-</View>
+    <View style={styles.container}>
+      <Home />
+    </View>
   )
 
 
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    
+
   }
 
 
