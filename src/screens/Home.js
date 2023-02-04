@@ -32,7 +32,7 @@ const Home = (props) => {
   // const city = require('../assets/images/city.jpeg') ; 
 
   const onTextPress = () => {
-    props.navigation.navigate(ScreensName.page2);
+    props.navigation.navigate(ScreensName.page2); 
   }
 
   useEffect(() => {
