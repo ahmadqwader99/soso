@@ -32,8 +32,9 @@ import {
 
 
 } from 'react-native/Libraries/NewAppScreen';
+import MainNavigation from './route/nav';
 import Home from './src/screens/Home';
-import Missions3 from './src3/components3/Missions3';
+import Missions3 from './src/screens/Page2';
 
 
 
@@ -48,7 +49,7 @@ export default function App() {
   return (
 
     <View style={styles.container}>
-      <Home />
+      <MainNavigation />
     </View>
   )
 

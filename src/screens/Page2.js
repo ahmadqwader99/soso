@@ -2,7 +2,7 @@ import { View, Text, TextInput, StyleSheet, Button,  } from 'react-native'
 import React from 'react'
 import { useState } from 'react'
 
-const Missions3 = () => {
+const Page2 = () => {
 const [enterGoalText, setEnterGoalText] = useState('')
 
 function goalInputHandler(enteredText) {
@@ -64,4 +64,4 @@ const styles = StyleSheet.create({
   
   });
 
-export default Missions3
+export default Page2
