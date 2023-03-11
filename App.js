@@ -33,8 +33,7 @@ import {
 
 } from 'react-native/Libraries/NewAppScreen';
 import MainNavigation from './route/nav';
-import Home from './src/screens/Home';
-import Missions3 from './src/screens/Page2';
+import Home from './screens/Home';
 
 
 
@@ -47,23 +46,14 @@ export default function App() {
 
 
   return (
-
-    <View style={styles.container}>
-      <MainNavigation />
-    </View>
+<Home/>
+  
   )
-
-
-
 
 }
 const styles = StyleSheet.create({
 
-  container: {
-    flex: 1,
-    justifyContent: 'center',
 
-  }
 
 
 
