@@ -11,7 +11,7 @@ export default function SearchBar() {
   
   return (
     <View style={{ marginTop: 15, flexDirection: 'row' }} >
-     
+      
     </View>
   )
 }
