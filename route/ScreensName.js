@@ -1,6 +1,6 @@
-// const ScreensName = {
-//     home: "Home",
-//     page2: "Page2"
-// }
+const ScreensName = {
+    HomeScreen : "Home" , 
+    SecondScreen: "SecondScreen",
+}
 
-// export default ScreensName; 
+export default ScreensName; 

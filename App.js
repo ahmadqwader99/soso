@@ -6,36 +6,9 @@
  * @flow strict-local
  */
 
-import React, { useState } from 'react';
-import {
-  Button,
-  FlatList,
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  TextInput,
-  useColorScheme,
-  View,
-  enteredText,
-  Switch,
-
-} from 'react-native';
-
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-
-
-} from 'react-native/Libraries/NewAppScreen';
+import React from 'react';
+import {StyleSheet, View} from 'react-native';
 import MainNavigation from './route/nav';
-import Home from './screens/Home';
-
-
 
 
 /* $FlowFixMe[missing-local-annot] The type annotation(s) required by Flow's
@@ -46,13 +19,19 @@ export default function App() {
 
 
   return (
-<Home/>
+  <View style={styles.container}>
+    <MainNavigation/>
+  </View>
   
   )
 
 }
 const styles = StyleSheet.create({
 
+  container:{
+    flex:1,
+  }
+  
 
 
 
